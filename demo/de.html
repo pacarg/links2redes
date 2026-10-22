@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="de">
+
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; form-action 'none'; object-src 'none'; base-uri 'none'">
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="robots" content="noindex,nofollow,noarchive">
+
+  <meta name="theme-color" content="#0b2d42">
+
+  <title>Ihr Projektfragebogen für Atelier Example | Links2Redes</title>
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="stylesheet" href="assets/styles.css?v=20261020-4">
+
+</head>
+
+<body>
+
+<header class="topbar"><a href="../README.md" aria-label="Links2Redes"><img class="brand-logo brand-logo-topbar" src="assets/logo-links2redes-light.svg" alt="Links2Redes"></a><label class="locale-switch"><span>Sprache des Formulars</span><select id="formLanguage" aria-label="Sprache des Formulars"><option value="es" >Español</option><option value="en" >English</option><option value="de" selected>Deutsch</option></select></label><div class="status-pill">Tarif BASIC</div></header>
+
+<main><div class="notice">DEMONSTRATION · Fiktives Projekt · Keine Übermittlung oder Speicherung. Bitte keine personenbezogenen Daten eingeben.</div>
+
+  <section class="hero">
+
+    <div><p class="eyebrow">IHR DIGITALER AUFTRITT</p><h1>Die Grundlage für Ihren digitalen Auftritt: <em>Atelier Example</em>.</h1><p>Was zeichnet Ihr Unternehmen aus? Wen möchten Sie erreichen, und wie sollen Interessierte Kontakt aufnehmen? Teilen Sie uns Ihre Ziele mit und ergänzen Sie vorhandene Unterlagen. Stichpunkte genügen – wir übernehmen die redaktionelle Ausarbeitung.</p></div>
+
+    <aside class="project-card"><small>IHR PROJEKT</small><strong>Atelier Example</strong><span>Hosting bei Links2Redes</span><span>3 vereinbarte Profilsprachen</span></aside>
+
+  </section>
+
+  <section class="start-guide" aria-label="So füllen Sie das Formular aus"><div><strong>Den Fragebogen kennenlernen</strong><p>Erkunden Sie die Bereiche mit erfundenen Angaben. Beim Schließen oder Sprachwechsel werden die Eingaben verworfen. Die Hilfetexte beschreiben das vollständige Produkt.</p></div><button type="button" class="button secondary" data-open-help="general">So funktioniert es</button></section>
+
+    <div class="progress-wrap"><div><strong id="progressLabel">0% ausgefüllt</strong><span id="saveState">Ihr Formular wird geladen…</span></div><div class="progress"><i id="progressBar"></i></div></div>
+
+  <nav class="steps-nav" aria-label="Bereiche"><button data-go="0">1. Ihr Projekt</button><button data-go="1">2. Profil und Gestaltung</button><button data-go="2">3. Kontakt und Kanäle</button><button data-go="3">4. Dateien und Vorlagen</button><button data-go="4">5. Ihr QR-Code</button><button data-go="5">6. Prüfen und absenden</button></nav>
+
+
+
+  <form id="intakeForm" novalidate >
+
+    <section class="form-step active" data-step="0">
+
+      <header><span>01</span><div><p>ZIELE UND PRIORITÄTEN</p><h2>Was sollen Interessierte über Ihr Unternehmen erfahren?</h2></div></header>
+
+      <div class="grid two">
+
+        <label>Name für Ihren öffentlichen Auftritt <b>*</b><input name="public_name" required autocomplete="organization" placeholder="Bitte geben Sie den Namen so ein, wie er auf Ihrer Seite erscheinen soll."></label>
+
+        <label>Welche Produkte oder Leistungen bieten Sie an? <b>*</b><input name="activity" required placeholder="Produkte, Leistungen oder Fachgebiet"></label>
+
+      </div>
+
+      <label>Was sollen Besucher auf den ersten Blick verstehen? <b>*</b><textarea name="primary_goal" required placeholder="Beschreiben Sie das Wesentliche in Ihren eigenen Worten. Wir arbeiten den Text anschließend aus."></textarea></label>
+
+      <label>Wen möchten Sie erreichen?<textarea name="audience" placeholder="Kunden, Fachleute, Unternehmen oder Menschen in Ihrer Region …"></textarea></label>
+
+      <fieldset><legend>Was sollen Interessierte als Nächstes tun?</legend><div class="choice-grid"><label><input type="radio" name="main_action" value="whatsapp"> Über WhatsApp schreiben</label><label><input type="radio" name="main_action" value="call"> Anrufen</label><label><input type="radio" name="main_action" value="email"> Eine E-Mail senden</label><label><input type="radio" name="main_action" value="website"> Eine Website besuchen</label><label><input type="radio" name="main_action" value="social"> Einem Social-Media-Profil folgen</label><label><input type="radio" name="main_action" value="other"> Eine andere Aktion</label></div></fieldset>
+
+      <label>Welche bis zu fünf Aussagen sind Ihnen besonders wichtig?<textarea name="key_messages" placeholder="Zum Beispiel: Fachberatung; regionaler Service; unabhängiges Unternehmen; Erfahrung; Betreuung"></textarea><small>Nennen Sie bis zu fünf Punkte nach ihrer Bedeutung, getrennt durch Semikolons.</small></label>
+
+          </section>
+
+
+
+    <section class="form-step" data-step="1">
+
+      <header><span>02</span><div><p>PROFIL UND GESTALTUNG</p><h2>Wie soll Ihr Unternehmen wahrgenommen werden?</h2></div></header>
+
+      <label>Beschreiben Sie Ihr Unternehmen<textarea name="short_bio" placeholder="Sie können einen vorhandenen Text einfügen oder Stichpunkte notieren."></textarea></label>
+
+      <div class="grid two"><label>Welche Eigenschaften soll die Seite vermitteln?<textarea name="desired_feel" placeholder="Persönlich, präzise, praxisnah, innovativ …"></textarea></label><label>Was möchten Sie ausdrücklich vermeiden?<textarea name="avoid_feel" placeholder="Stile, Formulierungen oder Assoziationen, die nicht zu Ihrem Unternehmen passen."></textarea></label></div>
+
+      <label>Farben, Schriften und Gestaltungsvorgaben<input name="brand_notes" placeholder="Farbwerte, Schriften, Richtlinien oder Beispiellinks"></label>
+
+      <div class="upload-box" data-field="logo" tabindex="0"><div class="upload-icon" aria-hidden="true">L2R</div><h3>Aktuelles Logo</h3><p>Laden Sie Ihr aktuelles Logo hoch. Kennzeichnen Sie ältere Versionen, die ersetzt werden sollen.</p><input type="file" accept=".jpg,.jpeg,.png,.webp,.pdf"><select class="permission"><option value="public">Darf veröffentlicht werden</option><option value="reference">Nur als Vorlage – nicht veröffentlichen</option><option value="private">Vertraulich – nicht veröffentlichen</option></select><button type="button" class="upload-btn">Datei auswählen</button><div class="file-list"></div></div>
+
+      <label>Veraltete Inhalte und Gestaltungselemente<textarea name="obsolete_assets" placeholder="Frühere Logos, Jubiläumsmotive, alte Telefonnummern oder nicht mehr gültige Aussagen."></textarea></label>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="2">
+
+      <header><span>03</span><div><p>KONTAKT UND KANÄLE</p><h2>Wie sollen Interessierte Sie erreichen?</h2></div></header>
+
+      <label>Bevorzugter Kontaktweg <b>*</b><select name="primary_contact" required><option value="">Bitte auswählen</option><option value="WhatsApp Business">WhatsApp Business</option><option value="WhatsApp personal">Privates WhatsApp</option><option value="Teléfono">Telefonnummer</option><option value="Correo electrónico">E-Mail</option><option value="Formulario o sistema externo">Externes Formular oder System</option></select></label>
+
+      <div class="grid two"><label>WhatsApp<input name="whatsapp" inputmode="tel" placeholder="Bitte mit internationaler Vorwahl angeben."></label><label>Telefonnummer<input name="phone" inputmode="tel" placeholder="Bitte mit internationaler Vorwahl angeben."></label><label>Öffentlich angezeigte E-Mail-Adresse<input name="public_email" type="email"></label><label>Website<input name="website" type="url" placeholder="https://"></label></div>
+
+      <label>Social-Media-Profile und weitere Links<textarea name="social_links" placeholder="Ein Link pro Zeile. Kennzeichnen Sie die wichtigsten."></textarea></label>
+
+      <label>Angaben für die digitale Kontaktkarte <button type="button" class="inline-help" data-open-help="vcard" aria-label="Hilfe zur digitalen Kontaktkarte">?</button><textarea name="vcard_data" placeholder="Geben Sie nur Name, Funktion und Kontaktdaten an, die Besucher speichern können sollen."></textarea></label>
+
+      <label>Kontaktdaten, die nicht veröffentlicht werden dürfen<textarea name="private_or_old_contact"></textarea></label>
+
+      <fieldset><legend>Sprachen Ihres Profils</legend><p class="field-help">Vereinbart sind: es, en, de. Zusätzliche Sprachwünsche stimmen wir vor der Umsetzung mit Ihnen ab.</p><div class="choice-grid"><label><input type="checkbox" name="requested_languages[]" value="es"> Spanisch</label><label><input type="checkbox" name="requested_languages[]" value="en"> Englisch</label><label><input type="checkbox" name="requested_languages[]" value="de"> Deutsch</label><label><input type="checkbox" name="requested_languages[]" value="pt"> Portugiesisch</label></div><label>Weitere Sprachen oder Anmerkungen<input name="language_notes"></label></fieldset>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="3">
+
+      <header><span>04</span><div><p>DATEIEN UND VORLAGEN</p><h2>Welche Materialien sollen wir verwenden?</h2></div></header>
+
+      <div class="upload-box" data-field="hero_image" tabindex="0"><div class="upload-icon" aria-hidden="true">01</div><h3>Hauptbild <button type="button" class="inline-help" data-open-help="permissions" aria-label="Hilfe zu Dateifreigaben">?</button></h3><p>Wählen Sie ein Bild, das Ihr Unternehmen besonders gut repräsentiert. Ziehen Sie es hierher oder wählen Sie eine Datei aus.</p><input type="file" accept=".jpg,.jpeg,.png,.webp"><select class="permission"><option value="public">Darf veröffentlicht werden</option><option value="reference">Nur als Vorlage – nicht veröffentlichen</option><option value="private">Vertraulich – nicht veröffentlichen</option></select><button type="button" class="upload-btn">Datei auswählen</button><div class="file-list"></div></div>
+
+      <div class="upload-box" data-field="supporting_media" tabindex="0"><div class="upload-icon" aria-hidden="true">+</div><h3>Weitere Bilder, Dokumente und Videos</h3><p>Laden Sie Dateien einzeln hoch und legen Sie jeweils den erlaubten Verwendungszweck fest.</p><input type="file" accept=".jpg,.jpeg,.png,.webp,.pdf,.docx,.txt,.mp4,.webm"><select class="permission"><option value="public">Darf veröffentlicht werden</option><option value="reference" selected>Nur als Vorlage – nicht veröffentlichen</option><option value="private">Vertraulich – nicht veröffentlichen</option></select><button type="button" class="upload-btn">Datei auswählen</button><div class="file-list"></div></div>
+
+      <label>Wie sollen wir die Materialien einsetzen?<textarea name="media_notes" placeholder="Zum Beispiel: Teamfoto zuerst zeigen; PDF nur als Hintergrundinformation verwenden; dieses Video hervorheben."></textarea></label>
+
+      <label>Links zu extern gespeicherten Dateien oder Videos<textarea name="external_media_links" placeholder="YouTube, Vimeo, Drive, Dropbox oder ein anderer Speicherort"></textarea></label>
+
+          </section>
+
+
+
+    <section class="form-step" data-step="4">
+
+      <header><span>05</span><div><p>GESTALTUNG DURCH LINKS2REDES</p><h2>Ein QR-Code, der zu Ihrem Auftritt passt</h2></div></header>
+
+      <div class="qr-intro"><div class="qr-motif" aria-hidden="true"></div><div><h3>Wir gestalten Ihren QR-Code</h3><p>Teilen Sie uns den geplanten Einsatz mit, damit wir Format, Größe und Gestaltung berücksichtigen können. Über einen messbaren Link fließen Aufrufe in die Statistiken Ihres Services ein.</p></div></div>
+
+      <label>Wo möchten Sie den QR-Code einsetzen?<textarea name="qr_uses" placeholder="Visitenkarten, Broschüren, Messestände, Schaufenster oder digitale Beiträge …"></textarea></label>
+
+      <label>Wohin soll der QR-Code führen?<select name="qr_destination"><option value="profile">Zu meinem Links2Redes-Profil</option><option value="specific">Zu einem bestimmten Bereich oder einer Aktion</option><option value="pending">Ich wünsche eine Empfehlung</option></select></label>
+
+      <label>Gestaltungswünsche und praktische Anforderungen<textarea name="qr_visual_notes" placeholder="Farben, heller oder dunkler Hintergrund, Druckverwendung, vorgesehene Größe …"></textarea></label>
+
+      <fieldset><legend>Welche Einsatzorte möchten Sie in der Statistik unterscheiden können? <button type="button" class="inline-help" data-open-help="tracking" aria-label="Hilfe zu messbaren Einsatzorten">?</button></legend><div class="choice-grid"><label><input type="checkbox" name="tracking_sources[]" value="card"> Visitenkarte</label><label><input type="checkbox" name="tracking_sources[]" value="store"> Geschäft oder Empfang</label><label><input type="checkbox" name="tracking_sources[]" value="event"> Veranstaltung oder Kongress</label><label><input type="checkbox" name="tracking_sources[]" value="flyer"> Broschüre</label><label><input type="checkbox" name="tracking_sources[]" value="social"> Digitaler Beitrag</label></div></fieldset>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="5">
+
+      <header><span>06</span><div><p>ABSCHLIESSENDE PRÜFUNG</p><h2>Prüfen Sie Ihre Angaben</h2></div></header>
+
+      <div id="summary" class="summary"></div>
+
+      <label class="consent"><input type="checkbox" name="rights_confirmed" value="1" required> Ich bestätige, dass ich diese Materialien Links2Redes zur Verfügung stellen darf und angegeben habe, welche veröffentlicht werden dürfen. <b>*</b></label>
+
+      <label class="consent"><input type="checkbox" name="privacy_confirmed" value="1" required> Ich habe verstanden, dass diese Angaben zur Vorbereitung und Betreuung des vereinbarten Services verwendet werden. <b>*</b></label>
+
+      <label>Möchten Sie uns noch etwas mitteilen?<textarea name="final_notes" placeholder="Ergänzen Sie Hinweise, die wir vor Beginn berücksichtigen sollen."></textarea></label>
+
+      <div class="notice">Mit dem Absenden ändern Sie den vereinbarten Leistungsumfang nicht. Zusätzliche Funktionen, Sprachen oder Arbeiten stimmen wir vor der Umsetzung mit Ihnen ab.</div>
+
+    </section>
+
+    <footer class="form-actions"><button type="button" id="prevBtn" class="button secondary">Zurück</button><button type="button" id="saveBtn" class="button ghost">Entwurf speichern</button><button type="button" id="nextBtn" class="button primary">Weiter</button><button type="button" id="submitBtn" class="button primary hidden">Angaben absenden</button></footer>
+
+  </form>
+
+</main>
+
+<button type="button" id="helpButton" class="help-fab" aria-haspopup="dialog">Benötigen Sie Hilfe?</button>
+
+<div id="helpOverlay" class="help-overlay" hidden></div>
+
+<aside id="helpDrawer" class="help-drawer" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+
+  <header><div><small>HILFE ZU DIESEM BEREICH</small><h2 id="helpTitle">Hilfe zu diesem Bereich</h2></div><button type="button" id="helpClose" aria-label="Hilfe schließen">×</button></header>
+
+  <div id="helpBody" class="help-body"></div>
+
+  <footer><a href="ayuda/de.html" target="_blank" rel="noopener">Vollständige Anleitung öffnen ↗</a></footer>
+
+</aside>
+
+<footer class="page-footer"><strong>Links2Redes</strong><span>Ihre Identität. Ihre Verbindungen. Ihr digitaler Auftritt – persönlich betreut.</span><a href="mailto:contacto@links2redes.com">contacto@links2redes.com</a></footer>
+
+<script>window.L2R_DEMO = {"locale": "de", "answers": {}, "locked": false};</script>
+
+<script src="assets/i18n.js?v=local09"></script>
+
+<script src="assets/demo.js"></script></body></html>

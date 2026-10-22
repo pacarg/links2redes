@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="es">
+
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; form-action 'none'; object-src 'none'; base-uri 'none'">
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="robots" content="noindex,nofollow,noarchive">
+
+  <meta name="theme-color" content="#0b2d42">
+
+  <title>Preparemos Atelier Example | Links2Redes</title>
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="stylesheet" href="assets/styles.css?v=20261020-4">
+
+</head>
+
+<body>
+
+<header class="topbar"><a href="../README.md" aria-label="Links2Redes"><img class="brand-logo brand-logo-topbar" src="assets/logo-links2redes-light.svg" alt="Links2Redes"></a><label class="locale-switch"><span>Idioma del formulario</span><select id="formLanguage" aria-label="Idioma del formulario"><option value="es" selected>Español</option><option value="en" >English</option><option value="de" >Deutsch</option></select></label><div class="status-pill">Plan BASIC</div></header>
+
+<main><div class="notice">DEMOSTRACIÓN · Proyecto ficticio · Sin envío ni almacenamiento. No ingreses datos personales.</div>
+
+  <section class="hero">
+
+    <div><p class="eyebrow">INCORPORACIÓN DE CONTENIDOS</p><h1>Preparemos tu espacio <em>Atelier Example</em>.</h1><p>Reuniremos lo necesario para diseñar tu perfil con claridad. Podés responder con ideas simples, adjuntar materiales y regresar cuando quieras.</p></div>
+
+    <aside class="project-card"><small>SOLICITUD PERSONALIZADA</small><strong>Atelier Example</strong><span>Alojamiento en Links2Redes</span><span>3 idiomas del perfil</span></aside>
+
+  </section>
+
+  <section class="start-guide" aria-label="Cómo completar el formulario"><div><strong>Explorá el formulario</strong><p>Esta muestra permite recorrer las etapas y probar campos con datos inventados. Los cambios se descartan al cerrar o cambiar de idioma. Las ayudas describen el funcionamiento del producto completo.</p></div><button type="button" class="button secondary" data-open-help="general">Cómo funciona</button></section>
+
+    <div class="progress-wrap"><div><strong id="progressLabel">0% completado</strong><span id="saveState">Preparando el formulario…</span></div><div class="progress"><i id="progressBar"></i></div></div>
+
+  <nav class="steps-nav" aria-label="Etapas"><button data-go="0">1. Proyecto</button><button data-go="1">2. Identidad</button><button data-go="2">3. Canales</button><button data-go="3">4. Materiales</button><button data-go="4">5. QR</button><button data-go="5">6. Revisión</button></nav>
+
+
+
+  <form id="intakeForm" novalidate >
+
+    <section class="form-step active" data-step="0">
+
+      <header><span>01</span><div><p>EL PUNTO DE PARTIDA</p><h2>Qué debe comunicar tu perfil</h2></div></header>
+
+      <div class="grid two">
+
+        <label>Nombre público exacto <b>*</b><input name="public_name" required autocomplete="organization" placeholder="Como debe aparecer publicado"></label>
+
+        <label>Actividad o especialidad <b>*</b><input name="activity" required placeholder="Qué hacés u ofrecés"></label>
+
+      </div>
+
+      <label>¿Qué debería comprender una persona en pocos segundos? <b>*</b><textarea name="primary_goal" required placeholder="Contanos con tus propias palabras. No hace falta redactarlo de forma definitiva."></textarea></label>
+
+      <label>¿A quién querés llegar?<textarea name="audience" placeholder="Clientes, comunidad, profesionales, empresas, público local…"></textarea></label>
+
+      <fieldset><legend>Acción principal esperada</legend><div class="choice-grid"><label><input type="radio" name="main_action" value="whatsapp"> Escribir por WhatsApp</label><label><input type="radio" name="main_action" value="call"> Llamar</label><label><input type="radio" name="main_action" value="email"> Enviar correo</label><label><input type="radio" name="main_action" value="website"> Visitar una web</label><label><input type="radio" name="main_action" value="social"> Seguir una red</label><label><input type="radio" name="main_action" value="other"> Otra acción</label></div></fieldset>
+
+      <label>Hasta cinco ideas que deberían verse primero<textarea name="key_messages" placeholder="Ejemplo: equipos portátiles; mercado latinoamericano; ubicación Miami; marcas; congresos"></textarea><small>Separalas con punto y coma y ordenalas por importancia.</small></label>
+
+          </section>
+
+
+
+    <section class="form-step" data-step="1">
+
+      <header><span>02</span><div><p>ADN VISUAL Y VERBAL</p><h2>Cómo debe sentirse y reconocerse</h2></div></header>
+
+      <label>Descripción breve actual<textarea name="short_bio" placeholder="Podés pegar un texto existente o escribir ideas en bruto."></textarea></label>
+
+      <div class="grid two"><label>Sensaciones que debería transmitir<textarea name="desired_feel" placeholder="Cercanía, precisión, naturaleza, innovación…"></textarea></label><label>Qué no debería transmitir<textarea name="avoid_feel" placeholder="Estilos, palabras o asociaciones que querés evitar."></textarea></label></div>
+
+      <label>Colores o referencias visuales conocidas<input name="brand_notes" placeholder="Códigos, nombres de colores, tipografías o enlaces"></label>
+
+      <div class="upload-box" data-field="logo" tabindex="0"><div class="upload-icon" aria-hidden="true">L2R</div><h3>Logo vigente</h3><p>Arrastrá el archivo aquí o seleccionalo. Si existe una versión antigua, indicalo en las observaciones.</p><input type="file" accept=".jpg,.jpeg,.png,.webp,.pdf"><select class="permission"><option value="public">Puede publicarse</option><option value="reference">Solo como referencia</option><option value="private">Material privado</option></select><button type="button" class="upload-btn">Elegir archivo</button><div class="file-list"></div></div>
+
+      <label>Materiales o identidades que ya no deben utilizarse<textarea name="obsolete_assets" placeholder="Logos anteriores, aniversarios, colores, teléfonos o mensajes desactualizados."></textarea></label>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="2">
+
+      <header><span>03</span><div><p>ACCESOS Y CONTACTO</p><h2>Información vigente y priorizada</h2></div></header>
+
+      <label>Canal principal de contacto <b>*</b><select name="primary_contact" required><option value="">Elegir</option><option value="WhatsApp Business">WhatsApp Business</option><option value="WhatsApp personal">WhatsApp personal</option><option value="Teléfono">Teléfono</option><option value="Correo electrónico">Correo electrónico</option><option value="Formulario o sistema externo">Formulario o sistema externo</option></select></label>
+
+      <div class="grid two"><label>WhatsApp<input name="whatsapp" inputmode="tel" placeholder="Incluí código de país"></label><label>Teléfono<input name="phone" inputmode="tel" placeholder="Incluí código de país"></label><label>Correo público<input name="public_email" type="email"></label><label>Sitio web<input name="website" type="url" placeholder="https://"></label></div>
+
+      <label>Redes sociales y enlaces<textarea name="social_links" placeholder="Una dirección por línea. Indicá cuáles son prioritarias."></textarea></label>
+
+      <label>Datos que deben incluirse en la vCard <button type="button" class="inline-help" data-open-help="vcard" aria-label="Ayuda sobre vCard">?</button><textarea name="vcard_data" placeholder="Nombre, organización, cargo, teléfono, correo, web y dirección que la persona podrá guardar como contacto."></textarea></label>
+
+      <label>Datos antiguos o privados que no debemos publicar<textarea name="private_or_old_contact"></textarea></label>
+
+      <fieldset><legend>Idiomas</legend><p class="field-help">Incluidos: es, en, de. Los adicionales quedarán como solicitud para evaluar.</p><div class="choice-grid"><label><input type="checkbox" name="requested_languages[]" value="es"> Español</label><label><input type="checkbox" name="requested_languages[]" value="en"> Inglés</label><label><input type="checkbox" name="requested_languages[]" value="de"> Alemán</label><label><input type="checkbox" name="requested_languages[]" value="pt"> Portugués</label></div><label>Otro idioma o comentario<input name="language_notes"></label></fieldset>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="3">
+
+      <header><span>04</span><div><p>ARCHIVOS Y REFERENCIAS</p><h2>Qué podemos utilizar y con qué prioridad</h2></div></header>
+
+      <div class="upload-box" data-field="hero_image" tabindex="0"><div class="upload-icon" aria-hidden="true">01</div><h3>Imagen principal o de encabezado <button type="button" class="inline-help" data-open-help="permissions" aria-label="Ayuda sobre permisos de archivos">?</button></h3><p>La fotografía o imagen que mejor representa el proyecto. Arrastrala aquí o seleccionala.</p><input type="file" accept=".jpg,.jpeg,.png,.webp"><select class="permission"><option value="public">Puede publicarse</option><option value="reference">Solo como referencia</option><option value="private">Material privado</option></select><button type="button" class="upload-btn">Elegir archivo</button><div class="file-list"></div></div>
+
+      <div class="upload-box" data-field="supporting_media" tabindex="0"><div class="upload-icon" aria-hidden="true">+</div><h3>Otras imágenes, documentos o videos</h3><p>Podés arrastrarlos o subirlos de a uno y señalar si son publicables o solo referencias.</p><input type="file" accept=".jpg,.jpeg,.png,.webp,.pdf,.docx,.txt,.mp4,.webm"><select class="permission"><option value="public">Puede publicarse</option><option value="reference" selected>Solo como referencia</option><option value="private">Material privado</option></select><button type="button" class="upload-btn">Elegir archivo</button><div class="file-list"></div></div>
+
+      <label>Prioridad y uso de los materiales<textarea name="media_notes" placeholder="Ejemplo: la foto grupal debe mostrarse primero; este PDF es solo informativo; este video debe destacarse."></textarea></label>
+
+      <label>Enlaces a videos o archivos externos<textarea name="external_media_links" placeholder="YouTube, Vimeo, Drive, Dropbox u otra ubicación"></textarea></label>
+
+          </section>
+
+
+
+    <section class="form-step" data-step="4">
+
+      <header><span>05</span><div><p>SERVICIO CREATIVO LINKS2REDES</p><h2>Tu QR, diseñado para acompañar tu identidad</h2></div></header>
+
+      <div class="qr-intro"><div class="qr-motif" aria-hidden="true"></div><div><h3>No necesitás crear el código QR</h3><p>Links2Redes diseñará una pieza cuidada, legible y coherente con tu perfil. El QR utilizará una dirección medible para registrar accesos de forma compatible con las estadísticas del servicio.</p></div></div>
+
+      <label>¿Dónde se utilizará?<textarea name="qr_uses" placeholder="Tarjetas personales, vidriera, folleto, congreso, stand, productos, redes…"></textarea></label>
+
+      <label>Destino principal del QR<select name="qr_destination"><option value="profile">Perfil completo de Links2Redes</option><option value="specific">Una sección o acción específica</option><option value="pending">Quiero que me orienten</option></select></label>
+
+      <label>Preferencias o restricciones visuales<textarea name="qr_visual_notes" placeholder="Colores, fondo claro u oscuro, uso impreso, tamaño previsto…"></textarea></label>
+
+      <fieldset><legend>Canales que querés distinguir en estadísticas <button type="button" class="inline-help" data-open-help="tracking" aria-label="Ayuda sobre canales estadísticos">?</button></legend><div class="choice-grid"><label><input type="checkbox" name="tracking_sources[]" value="card"> Tarjeta personal</label><label><input type="checkbox" name="tracking_sources[]" value="store"> Local o mostrador</label><label><input type="checkbox" name="tracking_sources[]" value="event"> Evento o congreso</label><label><input type="checkbox" name="tracking_sources[]" value="flyer"> Folleto</label><label><input type="checkbox" name="tracking_sources[]" value="social"> Publicación digital</label></div></fieldset>
+
+    </section>
+
+
+
+    <section class="form-step" data-step="5">
+
+      <header><span>06</span><div><p>CONTROL FINAL</p><h2>Revisá antes de enviar</h2></div></header>
+
+      <div id="summary" class="summary"></div>
+
+      <label class="consent"><input type="checkbox" name="rights_confirmed" value="1" required> Confirmo que puedo facilitar estos materiales a Links2Redes y que indiqué cuáles pueden publicarse. <b>*</b></label>
+
+      <label class="consent"><input type="checkbox" name="privacy_confirmed" value="1" required> Comprendo que esta información será utilizada para preparar y mantener el servicio contratado. <b>*</b></label>
+
+      <label>Comentario final<textarea name="final_notes" placeholder="Cualquier aclaración que debamos conocer antes de comenzar."></textarea></label>
+
+      <div class="notice">Enviar el formulario no amplía automáticamente el plan contratado. Las funciones, idiomas o trabajos adicionales serán revisados y confirmados antes de realizarlos.</div>
+
+    </section>
+
+    <footer class="form-actions"><button type="button" id="prevBtn" class="button secondary">Anterior</button><button type="button" id="saveBtn" class="button ghost">Guardar borrador</button><button type="button" id="nextBtn" class="button primary">Continuar</button><button type="button" id="submitBtn" class="button primary hidden">Enviar a Links2Redes</button></footer>
+
+  </form>
+
+</main>
+
+<button type="button" id="helpButton" class="help-fab" aria-haspopup="dialog">¿Necesitás ayuda?</button>
+
+<div id="helpOverlay" class="help-overlay" hidden></div>
+
+<aside id="helpDrawer" class="help-drawer" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+
+  <header><div><small>AYUDA CONTEXTUAL</small><h2 id="helpTitle">Cómo completar esta etapa</h2></div><button type="button" id="helpClose" aria-label="Cerrar ayuda">×</button></header>
+
+  <div id="helpBody" class="help-body"></div>
+
+  <footer><a href="ayuda/es.html" target="_blank" rel="noopener">Abrir la guía completa ↗</a></footer>
+
+</aside>
+
+<footer class="page-footer"><strong>Links2Redes</strong><span>Tu identidad. Tus conexiones. Un espacio digital gestionado para vos.</span><a href="mailto:contacto@links2redes.com">contacto@links2redes.com</a></footer>
+
+<script>window.L2R_DEMO = {"locale": "es", "answers": {}, "locked": false};</script>
+
+<script src="assets/i18n.js?v=local09"></script>
+
+<script src="assets/demo.js"></script></body></html>
