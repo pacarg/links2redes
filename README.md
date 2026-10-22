@@ -49,7 +49,7 @@ tests/                Verificaciones de la vitrina pública
 
 ## Autoría
 
-**Pablo Churín — Guía Tecnológico** origina y dirige el proyecto, define el servicio, integra las soluciones y valida su publicación. Las herramientas de IA colaboran en redacción, implementación, pruebas y documentación bajo su dirección.
+**Pablo A. Churín — Guía Tecnológico** origina y dirige el proyecto, define el servicio, integra las soluciones y valida su publicación. Las herramientas de IA colaboran en redacción, implementación, pruebas y documentación bajo su dirección.
 
 [guiatecnologico.com](https://guiatecnologico.com)
 
