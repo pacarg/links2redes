@@ -4,11 +4,11 @@ from html.parser import HTMLParser
 import re
 
 root = Path(__file__).resolve().parents[1]
-allowed = {'.gitignore', 'LICENSE', 'README.md'}
+allowed = {'.gitignore', '.nojekyll', 'LICENSE', 'README.md', 'index.html'}
 for path in root.iterdir():
     assert path.name in allowed | {'.git', 'demo', 'docs', 'tests'}, f'Unexpected public root: {path.name}'
 blocked = re.compile(r'(?:[A-Za-z]:\\\\|\\\\\\\\[a-zA-Z]|(?:mysql|postgres)://[^\s]+:[^\s]+@)', re.I)
-files = [p for folder in ['demo','docs'] for p in (root/folder).rglob('*') if p.is_file()] + [root/'README.md']
+files = [p for folder in ['demo','docs'] for p in (root/folder).rglob('*') if p.is_file()] + [root/'README.md',root/'index.html']
 for path in files:
     assert path.suffix.lower() not in {'.php','.sql','.sqlite','.zip','.gz'}, path
     text = path.read_text(encoding='utf-8')
@@ -25,7 +25,7 @@ class Assets(HTMLParser):
             target=a.get('src') or a.get('href','')
             if target and not re.match(r'^(?:https?:|mailto:|#|data:)',target):self.links.append(target)
         if tag=='input':self.inputs.append(a)
-for path in (root/'demo').rglob('*.html'):
+for path in [root/'index.html', *(root/'demo').rglob('*.html')]:
     text=path.read_text(encoding='utf-8')
     parser=Assets();parser.feed(text)
     assert 'connect-src \'none\'' in text and 'form-action \'none\'' in text, path

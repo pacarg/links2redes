@@ -6,6 +6,10 @@ Links2Redes reúne identidad, contenidos, canales de contacto, QR y medición pa
 
 🌐 [Sitio institucional](https://links2redes.com)
 
+## ▶ [Probar la demostración navegable](https://pacarg.github.io/links2redes/)
+
+Elegí Español, English o Deutsch desde la portada. La demo utiliza un proyecto ficticio y no se conecta con los servicios de producción.
+
 Este repositorio público es una **vitrina técnica y metodológica**. Explica el producto y muestra una demostración de interfaz con un proyecto ficticio. El backend operativo, las credenciales, la configuración de hosting, los registros y los perfiles de clientes quedan fuera de esta publicación.
 
 ## Qué muestra este trabajo
@@ -21,7 +25,7 @@ El alta de producción incluye guardado automático/manual, cambio de idioma con
 
 ## Demostración sin datos reales
 
-Abrir `demo/es.html`, `demo/en.html` o `demo/de.html` en un navegador. También puede servirse esta carpeta con cualquier servidor de archivos estáticos; no requiere PHP, base de datos ni instalación de paquetes.
+La [vitrina navegable](https://pacarg.github.io/links2redes/) se publica con GitHub Pages. Para probarla localmente, abrir `index.html` y elegir un idioma, o servir el repositorio con cualquier servidor de archivos estáticos. No requiere PHP, base de datos ni instalación de paquetes.
 
 El proyecto **Atelier Example** es ficticio. La demo permite recorrer etapas, consultar ayudas, completar campos de ejemplo y observar el progreso. No envía correo, no sube archivos y no guarda datos. Cambiar de idioma reinicia los campos de esta demostración. No introducir información personal.
 
@@ -34,6 +38,7 @@ Verificación local de la publicación: `python tests/publication-check.py`. Req
 - [Criterios de publicación y privacidad](docs/PUBLICACION.md)
 
 ```text
+index.html            Portada pública con acceso a las tres demos
 demo/                 Interfaz estática con datos ficticios, ES/EN/DE
   assets/             Estilos, traducciones, marca y lógica de demostración
   ayuda/              Guías de la interfaz
