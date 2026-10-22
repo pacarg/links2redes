@@ -1,0 +1,12 @@
+/* Help for the fictional public demonstration. Describes the complete product. */
+if (document.documentElement.lang === 'es') {
+  window.L2R_I18N.help = [
+    {title:'Cómo funciona el formulario', body:'<p>El producto completo reúne información para preparar un espacio digital. El cliente aporta ideas y materiales; Links2Redes los revisa y organiza.</p><p>Esta demostración permite explorar las seis etapas, pero no guarda ni envía datos. Usá información inventada. Al cerrar o cambiar de idioma se descartan los campos.</p>'},
+    {title:'Definamos el punto de partida', body:'<p>Indicá qué hace el proyecto ficticio y qué debería comprender una persona al abrir su perfil. Unas pocas ideas claras alcanzan para explorar el formulario.</p><p>Los campos obligatorios determinan el porcentaje de avance. Los opcionales no impiden completar el proceso.</p>'},
+    {title:'Identidad visual y verbal', body:'<p>Describí cómo querés que se perciba el proyecto: cercano, técnico, natural o innovador. También podés indicar estilos que deban evitarse.</p><p>En el producto completo se pueden adjuntar referencias. La carga de archivos está desactivada en esta muestra.</p>'},
+    {title:'Canales y datos de contacto', body:'<p>El contacto principal orienta la acción prioritaria del perfil. La vCard permite guardar datos publicables en una agenda.</p><p>En esta demo usá únicamente datos inventados. El idioma de la interfaz es independiente de los idiomas acordados para el perfil.</p>'},
+    {title:'Materiales y permisos de uso', body:'<p>El producto completo diferencia materiales que pueden publicarse, referencias que orientan el trabajo y documentos privados. La categoría indica el permiso de uso.</p><p>Esta demostración no recibe archivos. Los controles de carga están desactivados.</p>'},
+    {title:'QR y medición de accesos', body:'<p>Indicá dónde se utilizaría el QR: tarjetas, eventos, locales o publicaciones digitales. Esos contextos ayudan a planificar enlaces medibles.</p><p>Esta muestra no genera un QR ni registra accesos a un proyecto.</p>'},
+    {title:'Revisión final', body:'<p>Revisá el resumen y los campos obligatorios. En el producto completo, la entrega final bloquea la solicitud para preservar lo recibido.</p><p>En esta demo, el botón final solo informa que no se envía ni guarda nada. Las confirmaciones son parte del ejemplo de interfaz y no producen una contratación.</p>'}
+  ];
+}
